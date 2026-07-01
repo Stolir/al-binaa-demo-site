@@ -1,0 +1,135 @@
+/* ----- JOSH COMEAU'S CSS RESET ----- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+/* ----- JOSH COMEAU'S CSS RESET ----- */
+
+:root {
+  /* Colors */
+
+  --background: #121414;
+  --surface: #1e2020;
+  --surface-alt: #282a2b;
+
+  --text: #e2e2e2;
+  --text-muted: #c4c7c7;
+
+  --primary: #c8c6c5;
+  --secondary: #ffb956;
+
+  --border: #444748;
+
+  --error: #ffb4ab;
+
+  /* Typography */
+
+  --font-heading: var(--font-heading);
+  --font-body: var(--font-body);
+
+  --text-hero: 40px;
+  --text-h2: 24px;
+  --text-body: 16px;
+  --text-small: 14px;
+  --text-label: 12px;
+
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  --line-height-hero: 48px;
+  --line-height-h2: 32px;
+  --line-height-body: 24px;
+  --line-height-small: 20px;
+
+  /* Spacing */
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  --container-padding: 16px;
+  --container-padding-lg: 64px;
+
+  --section-gap: 96px;
+  --content-width: 1200px;
+
+  /* Misc */
+
+  --radius: 8px;
+  --transition: 200ms ease;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --text-hero: 32px;
+    --line-height-hero: 38px;
+
+    --container-padding-lg: 16px;
+    --section-gap: 64px;
+  }
+}
