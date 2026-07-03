@@ -64,6 +64,18 @@ h6 {
 }
 /* ----- JOSH COMEAU'S CSS RESET ----- */
 
+:lang(en) {
+  --font-display: var(--font-sora);
+  --font-body: var(--font-inter);
+  --font-label: var(--font-ibm-plex-sans);
+}
+
+:lang(ar) {
+  --font-display: var(--font-almarai);
+  --font-body: var(--font-tajawal);
+  --font-label: var(--font-ibm-plex-sans-arabic);
+}
+
 :root {
   /* Colors */
 
