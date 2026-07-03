@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "dir": "rtl",
+    "lang": "ar"
+  },
+  "navbar": {
+    "logoText": "شركة البناء الهندسية",
+    "projects": "مشاريعنا",
+    "services": "خدماتنا",
+    "about": "عن الشركة",
+    "contact": "تواصل معنا",
+    "language": {
+      "text": "English",
+      "href": "/en"
+    }
+  }
+}

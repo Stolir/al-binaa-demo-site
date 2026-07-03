@@ -1,0 +1,17 @@
+{
+  "meta": {
+    "dir": "ltr",
+    "lang": "en"
+  },
+  "navbar": {
+    "logoText": "Al-Binaa Engineering",
+    "projects": "Projects",
+    "services": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "language": {
+      "text": "العربية",
+      "href": "/ar"
+    }
+  }
+}
