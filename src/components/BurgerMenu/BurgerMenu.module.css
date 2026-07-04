@@ -31,7 +31,7 @@
   width: max-content;
   position: absolute;
   inset-block-start: var(--burger-margin);
-  inset-inline-end: var(--burger-margin);
+  inset-inline-end: var(--space-16);
   z-index: 3;
 }
 
@@ -88,7 +88,7 @@
   padding: 1rem 3rem;
   padding-block-start: calc(var(--burger-height) + var(--burger-margin) + 2rem);
   background-color: white;
-  max-width: 10rem;
+  max-width: 12rem;
   inset-block-start: 0;
   inset-inline-end: 0;
   z-index: 2;
