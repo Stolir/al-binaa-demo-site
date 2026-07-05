@@ -13,5 +13,22 @@
       "text": "العربية",
       "href": "/ar"
     }
+  },
+  "hero": {
+    "headlineParts": [
+      { "text": "Where", "accent": false },
+      { "text": "Vision", "accent": true },
+      { "text": "Meets", "accent": false },
+      { "text": "Engineering", "accent": true }
+    ],
+    "subtext": "Three decades of precision engineering behind the Gulf's most iconic residential, commercial, and infrastructure projects.",
+    "ctaPrimary": {
+      "label": "Get a Quote",
+      "href": "/contact"
+    },
+    "ctaSecondary": {
+      "label": "View Projects",
+      "href": "/projects"
+    }
   }
 }

@@ -13,5 +13,22 @@
       "text": "English",
       "href": "/en"
     }
+  },
+  "hero": {
+    "headlineParts": [
+      { "text": "حيث", "accent": false },
+      { "text": "تلتقي", "accent": false },
+      { "text": "الرؤية", "accent": true },
+      { "text": "بالهندسة", "accent": true }
+    ],
+    "subtext": "ثلاثة عقود من الهندسة الدقيقة خلف أبرز المشاريع السكنية والتجارية والبنية التحتية في الخليج.",
+    "ctaPrimary": {
+      "label": "احصل على عرض سعر",
+      "href": "/contact"
+    },
+    "ctaSecondary": {
+      "label": "تصفح مشاريعنا",
+      "href": "/projects"
+    }
   }
 }
