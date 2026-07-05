@@ -1,0 +1,40 @@
+.heroSection {
+  position: relative;
+  height: 80vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+
+  font-family: var(--font-body);
+  font-size: var(--font-size);
+}
+
+.heroSection img {
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
+
+.contentContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline-start: var(--space-12);
+  max-width: 600px;
+
+  gap: var(--space-6);
+}
+
+.textContainer .accent {
+  color: var(--secondary);
+}
+
+.ctaContainer {
+  display: flex;
+  gap: var(--space-6);
+}
