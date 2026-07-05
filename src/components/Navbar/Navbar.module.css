@@ -3,7 +3,7 @@
   padding: 1.5rem var(--space-16);
   justify-content: space-between;
   align-items: center;
-  font-size: 1rem;
+  font-size: var(--font-size);
   font-family: var(--font-display);
 }
 

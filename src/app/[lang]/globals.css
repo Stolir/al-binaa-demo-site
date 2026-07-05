@@ -68,12 +68,14 @@ h6 {
   --font-display: var(--font-sora);
   --font-body: var(--font-inter);
   --font-label: var(--font-ibm-plex-sans);
+  --font-size: 16px;
 }
 
 :lang(ar) {
   --font-display: var(--font-almarai);
   --font-body: var(--font-tajawal);
   --font-label: var(--font-ibm-plex-sans-arabic);
+  --font-size: 18px;
 }
 
 :root {
