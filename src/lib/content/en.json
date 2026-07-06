@@ -36,5 +36,9 @@
     { "stat": "150+", "label": "Projects Completed" },
     { "stat": "2M+", "label": "SQM Delivered" },
     { "stat": "4", "label": "Countries" }
-  ]
+  ],
+  "Intro": {
+    "header": "Uncompromising Engineering Excellence",
+    "subtext": "We engineer for the world's harshest climates and highest expectations. Al Binaa delivers structural solutions that are as resilient as they are refined — designed with precision, built to last."
+  }
 }
