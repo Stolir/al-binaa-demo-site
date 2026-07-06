@@ -1,0 +1,22 @@
+.statBar {
+  display: flex;
+  max-width: 100vw;
+  background-color: var(--background);
+  color: var(--text-muted);
+  padding: var(--container-padding-m) var(--container-padding-lg);
+  align-items: center;
+  justify-content: center;
+  font-size: var(--font-size);
+
+  font-family: var(--font-body);
+}
+
+.accent {
+  color: var(--secondary);
+  font-size: 1.2em;
+}
+
+.statBar article {
+  flex: 1;
+  text-align: center;
+}

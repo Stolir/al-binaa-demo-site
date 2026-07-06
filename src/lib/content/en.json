@@ -30,5 +30,11 @@
       "label": "View Projects",
       "href": "/projects"
     }
-  }
+  },
+  "statBar": [
+    { "stat": "25+", "label": "Years In the Industry" },
+    { "stat": "150+", "label": "Projects Completed" },
+    { "stat": "2M+", "label": "SQM Delivered" },
+    { "stat": "4", "label": "Countries" }
+  ]
 }
