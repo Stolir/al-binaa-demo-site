@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./Navbar.module.css";
 import Link from "next/link";
-import logo from "../../../public/logo.png";
+import logo from "../../../public/icons/logo.png";
 import { Lang } from "@/lib/types";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
