@@ -82,11 +82,13 @@ h6 {
   /* Colors */
 
   --background: #121414;
+  --background-alt: #f2f0f0;
   --surface: #1e2020;
   --surface-alt: #282a2b;
 
   --text: #e2e2e2;
   --text-muted: #c4c7c7;
+  --text-alt: #616161;
 
   --primary: #c8c6c5;
   --secondary: #ffb956;
@@ -129,6 +131,7 @@ h6 {
   --container-padding: 16px;
   --container-padding-m: 32px;
   --container-padding-lg: 64px;
+  --container-padding-xlg: 96px;
 
   --section-gap: 96px;
   --content-width: 1200px;

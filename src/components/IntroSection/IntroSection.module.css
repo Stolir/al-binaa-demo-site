@@ -1,0 +1,44 @@
+.introSection {
+  display: flex;
+  padding: var(--container-padding-lg) 6rem;
+  gap: var(--space-6);
+  font-family: var(--font-display);
+  font-size: var(--font-size);
+
+  background-color: var(--background-alt);
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  flex: 1;
+}
+
+.textContainer h2 {
+  font-weight: 400;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.textContainer > p {
+  max-width: 650px;
+}
+
+.badgesContainer {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.badgeCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-4);
+
+  font-family: var(--font-label);
+  font-size: 0.75em;
+  color: var(--text-alt);
+}

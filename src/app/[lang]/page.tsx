@@ -3,6 +3,7 @@ import styles from "./page.module.css";
 import { Lang } from "@/lib/types";
 import { getDictionary } from "@/lib/utils";
 import StatBar from "@/components/StatBar/StatBar";
+import IntroSection from "@/components/IntroSection/IntroSection";
 
 interface HomeProps {
   params: Promise<{ lang: Lang }>;
@@ -17,6 +18,7 @@ export default async function Home({ params }: HomeProps) {
       <main className={styles.main}>
         <HeroSection content={content.hero} />
         <StatBar content={content.statBar} />
+        <IntroSection content={content.Intro} />
       </main>
     </div>
   );
