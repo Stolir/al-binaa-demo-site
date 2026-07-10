@@ -12,6 +12,9 @@
   text-transform: uppercase;
 
   transition: var(--transition);
+
+  width: 100%;
+  max-width: 200px;
 }
 
 .buttonLink.secondary {

@@ -1,0 +1,62 @@
+.specializationSection {
+  padding: var(--container-padding-lg) 6rem;
+  font-family: var(--font-display);
+  font-weight: 400;
+}
+
+.specializationSection h2 {
+  width: max-content;
+  font-weight: 400;
+  border-bottom: 2px solid var(--secondary);
+}
+
+.cardContainer {
+  margin-top: var(--container-padding-lg);
+  display: flex;
+  gap: var(--space-12);
+  flex-wrap: wrap;
+}
+
+.specializationCard {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  gap: var(--space-6);
+
+  border: 2px solid black;
+  padding: var(--container-padding-m);
+}
+
+.specializationCard p:first-of-type {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1em;
+}
+
+.specializationCard p {
+  font-size: 0.9em;
+}
+.specializationCard a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+  font-size: 0.85em;
+}
+
+.specializationCard a:hover {
+  color: var(--secondary);
+}
+
+@media (max-width: 768) {
+  .specializationSection {
+    padding: var(--container-padding-lg) 4rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .specializationSection {
+    padding: var(--container-padding-lg) 2rem;
+  }
+}

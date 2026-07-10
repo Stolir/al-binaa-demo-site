@@ -40,5 +40,30 @@
   "Intro": {
     "header": "Uncompromising Engineering Excellence",
     "subtext": "We engineer for the world's harshest climates and highest expectations. Al Binaa delivers structural solutions that are as resilient as they are refined — designed with precision, built to last."
+  },
+  "specializations": {
+    "header": "Specializations",
+    "fields": [
+      {
+        "name": "Residential",
+        "icon": "residential",
+        "description": "Luxury villas and apartment buildings, designed for comfort and built to last in demanding climates."
+      },
+      {
+        "name": "Commercial",
+        "icon": "commercial",
+        "description": "State-of-the-art office towers and retail hubs engineered for maximum space efficiency."
+      },
+      {
+        "name": "Infrastructure",
+        "icon": "infrastructure",
+        "description": "Bridges, roads, and utility networks that form the backbone of modern smart cities."
+      },
+      {
+        "name": "Industrial",
+        "icon": "industrial",
+        "description": "Heavy-duty manufacturing facilities and logistics warehouses with specialized structural needs."
+      }
+    ]
   }
 }

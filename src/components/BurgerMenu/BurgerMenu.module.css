@@ -9,7 +9,7 @@
 .burgerMenu {
   display: flex;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: absolute;
   inset-block-start: 12px;
   inset-inline-end: 0;
@@ -81,12 +81,15 @@
 }
 
 .sidebar {
+  position: fixed;
+  inset-block-start: 0;
+  inset-inline-end: 0;
   transition:
     translate var(--animation-timing),
     display var(--animation-timing);
   translate: var(--translate-x);
-  padding: 1rem 3rem;
-  padding-block-start: calc(var(--burger-height) + var(--burger-margin) + 2rem);
+  padding: 0 3rem;
+  padding-block-start: calc(var(--burger-height) + var(--burger-margin) + 4rem);
   background-color: white;
   max-width: 12rem;
   inset-block-start: 0;

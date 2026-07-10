@@ -4,6 +4,7 @@ import { Lang } from "@/lib/types";
 import { getDictionary } from "@/lib/utils";
 import StatBar from "@/components/StatBar/StatBar";
 import IntroSection from "@/components/IntroSection/IntroSection";
+import SpecializationsSection from "@/components/SpecializationsSection/SpecializationsSection";
 
 interface HomeProps {
   params: Promise<{ lang: Lang }>;
@@ -19,6 +20,7 @@ export default async function Home({ params }: HomeProps) {
         <HeroSection content={content.hero} />
         <StatBar content={content.statBar} />
         <IntroSection content={content.Intro} />
+        <SpecializationsSection content={content.specializations} />
       </main>
     </div>
   );

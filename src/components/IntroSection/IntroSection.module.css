@@ -1,5 +1,6 @@
 .introSection {
   display: flex;
+  flex-wrap: wrap;
   padding: var(--container-padding-lg) 6rem;
   gap: var(--space-6);
   font-family: var(--font-display);
@@ -27,6 +28,8 @@
 
 .badgesContainer {
   display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
   justify-content: space-around;
   flex: 1;
 }
@@ -41,4 +44,21 @@
   font-family: var(--font-label);
   font-size: 0.75em;
   color: var(--text-alt);
+}
+
+@media (max-width: 768px) {
+  .introSection {
+    padding: var(--container-padding-lg) 4rem;
+    flex-direction: column;
+  }
+
+  .textContainer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .introSection {
+    padding: var(--container-padding-lg) 2rem;
+  }
 }

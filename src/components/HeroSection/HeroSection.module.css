@@ -37,4 +37,19 @@
 .ctaContainer {
   display: flex;
   gap: var(--space-6);
+  flex-wrap: wrap;
+}
+
+@media (max-width: 768px) {
+  .contentContainer {
+    margin-inline-start: var(--container-padding-m);
+    margin-inline-end: var(--container-padding-m);
+  }
+}
+
+@media (max-width: 400px) {
+  .contentContainer {
+    margin-inline-start: var(--container-padding);
+    margin-inline-end: var(--container-padding);
+  }
 }
