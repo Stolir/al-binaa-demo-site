@@ -15,6 +15,7 @@ type Field = {
 type Content = {
   header: string;
   fields: Array<Field>;
+  cta: string;
 };
 
 const iconMap: Record<string, StaticImageData> = {
@@ -24,13 +25,13 @@ const iconMap: Record<string, StaticImageData> = {
   industrial: industryIcon,
 };
 
-function SpecializationCard({ field }: { field: Field }) {
+function SpecializationCard({ field, cta }: { field: Field; cta: string }) {
   return (
     <article className={styles.specializationCard}>
       <Image src={iconMap[field.icon]} alt={field.name} width={35} />
       <p>{field.name}</p>
       <p>{field.description}</p>
-      <Link href={"/services"}>Learn More</Link>
+      <Link href={"/services"}>{cta}</Link>
     </article>
   );
 }
@@ -41,7 +42,7 @@ function SpecializationsSection({ content }: { content: Content }) {
       <h2>{content.header}</h2>
       <div className={styles.cardContainer}>
         {content.fields.map((field, i) => (
-          <SpecializationCard key={i} field={field} />
+          <SpecializationCard key={i} field={field} cta={content.cta} />
         ))}
       </div>
     </section>
