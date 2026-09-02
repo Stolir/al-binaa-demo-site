@@ -64,6 +64,76 @@
         "icon": "industrial",
         "description": "Heavy-duty manufacturing facilities and logistics warehouses with specialized structural needs."
       }
+    ],
+    "cta": "Learn More"
+  },
+  "projects": {
+    "header": "Signature Works",
+    "subheader": "The Al-Binaa Portfolio",
+    "viewAll": "View All Projects",
+    "items": [
+      {
+        "location": "Doha, Qatar",
+        "year": "2024",
+        "title": "Pearl Coastal Towers",
+        "description": "Engineering oversight for the twin-tower waterfront complex, incorporating vibration-damping systems and a corrosion-resistant rebar specification for a 75-year design life in a high-salinity marine environment.",
+        "tags": ["Residential", "Structural"]
+      },
+      {
+        "location": "Abu Dhabi, UAE",
+        "year": "2023",
+        "title": "Al Masar Logistics Park",
+        "description": "Full structural and MEP design for a four-phase industrial rollout, delivered under an accelerated 14-month schedule without compromising fire-rating or load tolerances.",
+        "tags": ["Industrial", "MEP"]
+      },
+      {
+        "location": "Jeddah, KSA",
+        "year": "2025",
+        "title": "Corniche Transit Bridge",
+        "description": "Lead structural analysis for the 620m cable-stayed span, including wind-tunnel modeling and a phased construction sequence to keep the coastal road open throughout.",
+        "tags": ["Infrastructure", "Civil"]
+      },
+      {
+        "location": "Muscat, Oman",
+        "year": "2022",
+        "title": "Horizon Business Quarter",
+        "description": "Coordinated foundation and superstructure design across three towers sharing a single raft slab, resolving differential settlement challenges unique to the site's soil profile.",
+        "tags": ["Commercial", "Structural"]
+      },
+      {
+        "location": "Manama, Bahrain",
+        "year": "2024",
+        "title": "Bahrain Grand Exhibition Center",
+        "description": "Design of a column-free 20,000 sqm event hall using long-span steel trusses, built to host international trade conventions.",
+        "tags": ["Commercial", "Structural"]
+      },
+      {
+        "location": "Riyadh, KSA",
+        "year": "2023",
+        "title": "Wadi Heritage Residences",
+        "description": "A low-rise luxury villa community blending traditional Najdi architectural motifs with modern seismic-isolated foundations.",
+        "tags": ["Residential", "Structural"]
+      }
+    ]
+  },
+  "testimonials": {
+    "header": "Our Partnerships",
+    "items": [
+      {
+        "quote": "Their structural modeling caught a load-path issue three other firms missed. That's the kind of diligence you want on a coastal build.",
+        "name": "Director of Development",
+        "company": "Pearl Coastal Holdings"
+      },
+      {
+        "quote": "We needed a partner who could move fast without cutting corners on compliance. AL-BINAA delivered both.",
+        "name": "VP of Construction",
+        "company": "Al Masar Industrial Group"
+      },
+      {
+        "quote": "The bridge's wind-load analysis alone saved us from a costly redesign. Exceptional technical depth.",
+        "name": "Chief Engineer",
+        "company": "Jeddah Municipal Infrastructure Authority"
+      }
     ]
   }
 }
