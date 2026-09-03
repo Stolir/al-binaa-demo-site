@@ -6,6 +6,7 @@ import StatBar from "@/components/StatBar/StatBar";
 import IntroSection from "@/components/IntroSection/IntroSection";
 import SpecializationsSection from "@/components/SpecializationsSection/SpecializationsSection";
 import ProjectsSectionAlt from "@/components/ProjectsSectionAlt/ProjectsSectionAlt";
+import DeliveryProcessSection from "@/components/DeliveryProcessSection/DeliveryProcessSection";
 
 interface HomeProps {
   params: Promise<{ lang: Lang }>;
@@ -23,6 +24,7 @@ export default async function Home({ params }: HomeProps) {
         <IntroSection content={content.Intro} />
         <SpecializationsSection content={content.specializations} />
         <ProjectsSectionAlt content={content.projects} />
+        <DeliveryProcessSection content={content.deliveryProcess} />
       </main>
     </div>
   );
