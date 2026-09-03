@@ -135,5 +135,36 @@
         "company": "Jeddah Municipal Infrastructure Authority"
       }
     ]
+  },
+  "deliveryProcess": {
+    "header": "The Technical Journey",
+    "subheader": "Our standardized 5-step delivery framework.",
+    "steps": [
+      {
+        "step": "01",
+        "title": "Consultation",
+        "description": "Defining project scope and feasibility studies."
+      },
+      {
+        "step": "02",
+        "title": "Design",
+        "description": "Technical drafting and structural calculations."
+      },
+      {
+        "step": "03",
+        "title": "Permitting",
+        "description": "Navigating regional regulatory compliance."
+      },
+      {
+        "step": "04",
+        "title": "Construction",
+        "description": "On-site execution and rigorous safety protocols."
+      },
+      {
+        "step": "05",
+        "title": "Handover",
+        "description": "Final quality audit and project delivery."
+      }
+    ]
   }
 }
