@@ -9,6 +9,7 @@ import ProjectsSectionAlt from "@/components/ProjectsSectionAlt/ProjectsSectionA
 import DeliveryProcessSection from "@/components/DeliveryProcessSection/DeliveryProcessSection";
 import SafetySection from "@/components/SafetySection/SafetySection";
 import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
+import CtaSection from "@/components/CtaSection/CtaSection";
 
 interface HomeProps {
   params: Promise<{ lang: Lang }>;
@@ -29,6 +30,7 @@ export default async function Home({ params }: HomeProps) {
         <DeliveryProcessSection content={content.deliveryProcess} />
         <SafetySection content={content.safety} />
         <TestimonialsSection content={content.testimonials} />
+        <CtaSection content={content.cta} />
       </main>
     </div>
   );
