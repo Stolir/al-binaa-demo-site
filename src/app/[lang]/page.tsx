@@ -8,6 +8,7 @@ import SpecializationsSection from "@/components/SpecializationsSection/Speciali
 import ProjectsSectionAlt from "@/components/ProjectsSectionAlt/ProjectsSectionAlt";
 import DeliveryProcessSection from "@/components/DeliveryProcessSection/DeliveryProcessSection";
 import SafetySection from "@/components/SafetySection/SafetySection";
+import TestimonialsSection from "@/components/TestimonialsSection/TestimonialsSection";
 
 interface HomeProps {
   params: Promise<{ lang: Lang }>;
@@ -27,6 +28,7 @@ export default async function Home({ params }: HomeProps) {
         <ProjectsSectionAlt content={content.projects} />
         <DeliveryProcessSection content={content.deliveryProcess} />
         <SafetySection content={content.safety} />
+        <TestimonialsSection content={content.testimonials} />
       </main>
     </div>
   );
