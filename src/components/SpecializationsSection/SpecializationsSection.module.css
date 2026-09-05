@@ -1,5 +1,6 @@
 .specializationSection {
   padding: var(--container-padding-lg) 6rem;
+  background-color: var(--background-alt);
   font-family: var(--font-display);
   font-weight: 400;
 }

@@ -6,7 +6,7 @@
   font-family: var(--font-display);
   font-size: var(--font-size);
 
-  background-color: var(--background-alt);
+  background-color: var(--background-lightgrey);
 }
 
 .textContainer {

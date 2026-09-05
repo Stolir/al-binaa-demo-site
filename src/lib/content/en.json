@@ -166,5 +166,31 @@
         "description": "Final quality audit and project delivery."
       }
     ]
+  },
+  "safety": {
+    "title": "Safety First",
+    "description": "We maintain a Lost Time Injury (LTI) rate of zero across our major active sites in the last 24 months.",
+    "highlight": {
+      "value": "0.00 LTI",
+      "label": "Lost Time Injury"
+    },
+    "metrics": [
+      {
+        "value": "98%",
+        "label": "Client Retention"
+      },
+      {
+        "value": "12M",
+        "label": "Safe Man Hours"
+      },
+      {
+        "value": "320+",
+        "label": "Engineers"
+      },
+      {
+        "value": "A+",
+        "label": "Credit Rating"
+      }
+    ]
   }
 }
