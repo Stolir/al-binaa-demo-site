@@ -1,0 +1,160 @@
+.ctaSection {
+  background-color: var(--background-dark);
+  color: #ffffff;
+  padding: var(--container-padding-xlg) 0;
+  font-family: var(--font-body);
+}
+
+.container {
+  max-width: var(--content-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.heading {
+  font-family: var(--font-display);
+  font-size: var(--text-hero);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  line-height: var(--line-height-hero);
+  color: #ffffff;
+  margin-block-end: var(--space-6);
+  max-width: 800px;
+}
+
+.subtext {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--line-height-body);
+  color: var(--text-muted);
+  max-width: 620px;
+  margin-block-end: var(--space-12);
+}
+
+.buttonGroup {
+  display: flex;
+  gap: var(--space-6);
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.primaryBtn {
+  background-color: var(--secondary);
+  color: #000000;
+  border: 2px solid var(--secondary);
+  padding: var(--space-4) var(--space-12);
+  font-family: var(--font-label);
+  font-size: var(--text-small);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  transition:
+    background-color var(--transition),
+    border-color var(--transition),
+    color var(--transition),
+    transform var(--transition);
+  cursor: pointer;
+}
+
+.primaryBtn:hover {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #000000;
+}
+
+.primaryBtn:active {
+  transform: scale(0.98);
+}
+
+.primaryBtn:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 4px;
+}
+
+.secondaryBtn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  padding: var(--space-4) var(--space-12);
+  font-family: var(--font-label);
+  font-size: var(--text-small);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition:
+    background-color var(--transition),
+    color var(--transition),
+    transform var(--transition);
+  cursor: pointer;
+}
+
+.secondaryBtn:hover {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.secondaryBtn:active {
+  transform: scale(0.98);
+}
+
+.secondaryBtn:focus-visible {
+  outline: 2px solid #ffffff;
+  outline-offset: 4px;
+}
+
+.buttonIcon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 768px) {
+  .ctaSection {
+    padding: var(--section-gap) 0;
+  }
+
+  .container {
+    padding-inline: var(--container-padding);
+  }
+
+  .heading {
+    font-size: 28px;
+    line-height: 36px;
+    margin-block-end: var(--space-4);
+  }
+
+  .subtext {
+    font-size: var(--text-small);
+    margin-block-end: var(--space-8);
+  }
+
+  .buttonGroup {
+    flex-direction: column;
+    width: 100%;
+    gap: var(--space-4);
+  }
+
+  .primaryBtn,
+  .secondaryBtn {
+    width: 100%;
+    max-width: 320px;
+    padding: var(--space-4) var(--space-6);
+  }
+}
