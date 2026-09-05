@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar/Navbar";
 import ScrollRestorer from "@/components/ScrollRestorer/ScrollRestorer";
 import { getDictionary } from "@/lib/utils";
 import { Lang } from "@/lib/types";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata: Metadata = {
   title: "Al-Binaa Engineering",
@@ -38,6 +39,7 @@ export default async function RootLayout({ children, params }: layoutProps) {
         <ScrollRestorer />
         <Navbar content={content.navbar} lang={lang} />
         {children}
+        <Footer content={content.footer} />
       </body>
     </html>
   );
