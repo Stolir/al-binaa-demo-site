@@ -1,0 +1,133 @@
+.safetySection {
+  background-color: var(--background-lightgrey);
+  padding: var(--container-padding-xlg) 0;
+  font-family: var(--font-body);
+}
+
+.container {
+  max-width: var(--content-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-lg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-8);
+  align-items: stretch;
+}
+
+.highlightCard {
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #000000;
+  padding: var(--space-12);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.iconWrapper {
+  color: var(--secondary);
+  margin-block-end: var(--space-6);
+  display: inline-flex;
+  align-items: center;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: var(--text-h2);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+  margin-block-end: var(--space-4);
+}
+
+.description {
+  font-family: var(--font-body);
+  font-size: var(--text-body);
+  line-height: var(--line-height-body);
+  color: var(--text-muted);
+  margin-block-end: var(--space-8);
+}
+
+.highlightStat {
+  font-family: var(--font-display);
+  font-size: 42px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.5px;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+}
+
+.metricCard {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  padding: var(--space-8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: transform var(--transition);
+}
+
+.metricCard:hover {
+  transform: translateY(-2px);
+}
+
+.metricValue {
+  font-family: var(--font-display);
+  font-size: 28px;
+  font-weight: var(--font-weight-bold);
+  color: #000000;
+  margin-block-end: var(--space-2);
+  line-height: 1.2;
+}
+
+.metricLabel {
+  font-family: var(--font-label);
+  font-size: var(--text-label);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-alt);
+  line-height: 1.4;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 960px) {
+  .safetySection {
+    padding: var(--section-gap) 0;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    padding-inline: var(--container-padding-m);
+    gap: var(--space-6);
+  }
+
+  .highlightCard {
+    padding: var(--space-8);
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding-inline: var(--container-padding);
+  }
+
+  .metricsGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .highlightStat {
+    font-size: 34px;
+  }
+
+  .metricCard {
+    padding: var(--space-6);
+  }
+}
