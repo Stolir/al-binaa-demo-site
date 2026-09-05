@@ -1,0 +1,223 @@
+.footer {
+  background-color: var(--background-dark);
+  color: #ffffff;
+  /* border-block-start: 4px solid var(--border); */
+  font-family: var(--font-body);
+}
+
+.mainContent {
+  max-width: var(--content-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-lg);
+  padding-block: var(--space-16);
+  display: grid;
+  grid-template-columns: 1.3fr 1fr 1fr 1.2fr;
+  gap: var(--space-8);
+}
+
+.brandCol {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.brandTitle {
+  font-family: var(--font-display);
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #ffffff;
+}
+
+.brandDesc {
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  line-height: var(--line-height-small);
+  color: var(--text-muted);
+  max-width: 320px;
+}
+
+.socialIcons {
+  display: flex;
+  gap: var(--space-4);
+  margin-block-start: var(--space-2);
+}
+
+.socialIconLink {
+  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: color var(--transition);
+  text-decoration: none;
+}
+
+.socialIconLink:hover {
+  color: var(--secondary);
+}
+
+.socialIconLink:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 4px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.columnTitle {
+  font-family: var(--font-label);
+  font-size: var(--text-label);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--secondary);
+  margin-block-end: var(--space-6);
+}
+
+.linkList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.link {
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition);
+  display: inline-block;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.link:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+.address {
+  font-style: normal;
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  line-height: 1.8;
+  color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.contactDivider {
+  margin-block: var(--space-2);
+}
+
+.contactLink {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition);
+  display: inline-block;
+}
+
+.contactLink:hover {
+  color: var(--secondary);
+}
+
+.contactLink:focus-visible {
+  outline: 2px solid var(--secondary);
+  outline-offset: 2px;
+}
+
+.bottomBarWrapper {
+  border-block-start: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.bottomBar {
+  max-width: var(--content-width);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-lg);
+  padding-block: var(--space-8);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.copyright {
+  font-family: var(--font-label);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-alt);
+}
+
+.languageLinks {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-family: var(--font-label);
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-alt);
+}
+
+.langLink {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+
+.langLink:hover {
+  color: #ffffff;
+}
+
+.langLink.active {
+  color: #ffffff;
+  font-weight: var(--font-weight-bold);
+}
+
+.langDivider {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .mainContent {
+    grid-template-columns: repeat(2, 1fr);
+    padding-inline: var(--container-padding-m);
+    gap: var(--space-12);
+  }
+
+  .bottomBar {
+    padding-inline: var(--container-padding-m);
+  }
+}
+
+@media (max-width: 640px) {
+  .mainContent {
+    grid-template-columns: 1fr;
+    padding-inline: var(--container-padding);
+    padding-block: var(--space-12);
+    gap: var(--space-8);
+  }
+
+  .bottomBar {
+    padding-inline: var(--container-padding);
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
