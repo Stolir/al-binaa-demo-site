@@ -4,6 +4,7 @@ import Link from "next/link";
 import logo from "../../../public/icons/logo.png";
 import { Lang } from "@/lib/types";
 import BurgerMenu from "../BurgerMenu/BurgerMenu";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 
 type Content = {
   logoText: string;
@@ -30,7 +31,10 @@ function NavList({ content }: { content: Content }) {
       <Link href={""}>{content.about}</Link>
       <Link href={""}>{content.contact}</Link>
       <div className={styles.language}>
-        <Link href={content.language.href}>{content.language.text}</Link>
+        <LanguageSwitcher
+          href={content.language.href}
+          text={content.language.text}
+        />
       </div>
     </ul>
   );

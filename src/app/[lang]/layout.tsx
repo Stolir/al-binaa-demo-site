@@ -3,6 +3,7 @@ import { fontsByLang } from "@/lib/fonts";
 
 import "./globals.css";
 import Navbar from "@/components/Navbar/Navbar";
+import ScrollRestorer from "@/components/ScrollRestorer/ScrollRestorer";
 import { getDictionary } from "@/lib/utils";
 import { Lang } from "@/lib/types";
 
@@ -34,6 +35,7 @@ export default async function RootLayout({ children, params }: layoutProps) {
       className={`${fontsByLang[lang].display.variable} ${fontsByLang[lang].body.variable} ${fontsByLang[lang].label.variable}`}
     >
       <body>
+        <ScrollRestorer />
         <Navbar content={content.navbar} lang={lang} />
         {children}
       </body>
