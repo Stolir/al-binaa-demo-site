@@ -192,5 +192,46 @@
         "label": "Credit Rating"
       }
     ]
+  },
+  "cta": {
+    "heading": "Have a project in mind?",
+    "subtext": "Contact our senior technical team for a preliminary consultation and feasibility assessment.",
+    "primary": {
+      "label": "Contact us",
+      "href": "#"
+    },
+    "secondary": {
+      "label": "Send RFP",
+      "href": "#"
+    }
+  },
+  "footer": {
+    "brand": "AL-BINAA",
+    "description": "Industrial minimalism meeting structural integrity. Engineering the Levant and Gulf landscape since 1999.",
+    "quickLinksTitle": "Quick Links",
+    "quickLinks": [
+      { "label": "Projects", "href": "#" },
+      { "label": "Services", "href": "#" },
+      { "label": "Sustainability", "href": "#" },
+      { "label": "Careers", "href": "#" }
+    ],
+    "corporateTitle": "Corporate",
+    "corporate": [
+      { "label": "ISO Certifications", "href": "#" },
+      { "label": "Safety Standards", "href": "#" },
+      { "label": "Terms of Service", "href": "#" },
+      { "label": "Privacy Policy", "href": "#" }
+    ],
+    "hqTitle": "HQ Contact",
+    "hq": {
+      "addressLines": [
+        "Al-Rawdah District, Level 14",
+        "Kingdom Tower, Riyadh",
+        "Saudi Arabia"
+      ],
+      "phone": "+966 11 000 0000",
+      "email": "info@al-binaa.com"
+    },
+    "copyright": "© 2024 AL-BINAA ENGINEERING. ALL RIGHTS RESERVED."
   }
 }
