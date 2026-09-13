@@ -233,5 +233,135 @@
       "email": "info@al-binaa.com"
     },
     "copyright": "© 2024 AL-BINAA ENGINEERING. ALL RIGHTS RESERVED."
+  },
+  "servicesPage": {
+    "header": {
+      "eyebrow": "Technical Disciplines & Capabilities",
+      "title": "Engineered for Extremes",
+      "description": "Comprehensive civil, structural, and infrastructure engineering delivered to exacting international standards across demanding Arabian Gulf environments."
+    },
+    "disciplines": {
+      "eyebrow": "Core Sectors",
+      "title": "Specialized Engineering Disciplines",
+      "deliverablesTitle": "Key Scope & Deliverables",
+      "items": [
+        {
+          "id": "residential",
+          "code": "SEC-01",
+          "title": "Residential & Luxury Developments",
+          "subtitle": "High-density residential towers and private coastal villas",
+          "description": "Engineered for superior acoustic isolation, sustainable thermal efficiency, and expansive column-free layouts built to withstand harsh coastal weather.",
+          "capabilities": [
+            "Deep foundation & seismic isolation engineering",
+            "Advanced façade wind-load mitigation systems",
+            "Thermal envelope & thermal bridging optimization",
+            "Acoustic & structural vibration dampening"
+          ],
+          "metric": {
+            "value": "75+ Yrs",
+            "label": "Design Service Life"
+          }
+        },
+        {
+          "id": "commercial",
+          "code": "SEC-02",
+          "title": "Commercial & Corporate Hubs",
+          "subtitle": "High-rise office complexes, financial centers, and retail landmarks",
+          "description": "Innovative structural frameworks engineered for spatial flexibility, long-span core efficiency, and rapid construction sequencing.",
+          "capabilities": [
+            "Post-tensioned long-span slab systems",
+            "Central core aerodynamic stability design",
+            "High-efficiency integrated MEP coordination",
+            "Subterranean multi-level parking retention"
+          ],
+          "metric": {
+            "value": "35m+",
+            "label": "Clear Spans"
+          }
+        },
+        {
+          "id": "infrastructure",
+          "code": "SEC-03",
+          "title": "Civil & Transportation Infrastructure",
+          "subtitle": "Bridges, transit arteries, interchanges, and utility networks",
+          "description": "Robust heavy civil infrastructure designed for heavy axle loads, continuous coastal exposure, and accelerated civic delivery milestones.",
+          "capabilities": [
+            "Cable-stayed & segmental bridge design",
+            "Geotechnical ground improvement & piling",
+            "Dynamic maritime wave & current simulation",
+            "Hydraulic drainage & regional flood mitigation"
+          ],
+          "metric": {
+            "value": "100+",
+            "label": "Year Lifecycle"
+          }
+        },
+        {
+          "id": "industrial",
+          "code": "SEC-04",
+          "title": "Heavy Industrial & Logistics Parks",
+          "subtitle": "Manufacturing plants, distribution terminals, and specialized warehouses",
+          "description": "High-load industrial facilities optimized for high dynamic machinery loads, specialized hazard containment, and modular steel assembly.",
+          "capabilities": [
+            "Heavy-capacity gantry crane girder design",
+            "Industrial chemical & fire-rated containment",
+            "Thermal expansion joints for mega-footprints",
+            "High-tolerance slab-on-grade floors"
+          ],
+          "metric": {
+            "value": "120 kN/m²",
+            "label": "Load Capacity"
+          }
+        }
+      ]
+    },
+    "capabilities": {
+      "eyebrow": "Technical Competencies",
+      "title": "Advanced Engineering Methodologies",
+      "description": "Proprietary computational modeling, finite-element simulations, and lifecycle digital twin systems.",
+      "items": [
+        {
+          "code": "CAP-01",
+          "title": "Seismic & Wind Tunnel Simulation",
+          "description": "Non-linear dynamic response analysis and aerodynamic boundary-layer wind tunnel simulation for tall structures."
+        },
+        {
+          "code": "CAP-02",
+          "title": "High-Salinity Marine Foundations",
+          "description": "Corrosion-resistant rebar metallurgy, cathodic protection, and sulfate-resistant concrete mixes for coastal zones."
+        },
+        {
+          "code": "CAP-03",
+          "title": "MEP & Thermal Envelope Modeling",
+          "description": "Energy modeling that minimizes HVAC cooling loads by 35% in hyper-arid Gulf climates."
+        },
+        {
+          "code": "CAP-04",
+          "title": "Digital Twinning & Lifecycle BIM",
+          "description": "LOD 500 digital twinning enabling real-time structural health monitoring and predictive asset maintenance."
+        },
+        {
+          "code": "CAP-05",
+          "title": "Value Engineering & Material Audits",
+          "description": "Rigorous finite element reassessments that reduce total structural steel tonnage while maintaining safety factors."
+        },
+        {
+          "code": "CAP-06",
+          "title": "Regional Regulatory Permitting",
+          "description": "Expedited statutory compliance across Saudi municipal codes (SBC), UAE Civil Defense, Qatar, and Oman."
+        }
+      ]
+    },
+    "standards": {
+      "eyebrow": "International Benchmarks",
+      "title": "Codes & Compliance Standards",
+      "badges": [
+        { "code": "SBC", "name": "Saudi Building Code (SBC 201/304)" },
+        { "code": "EUROCODE", "name": "Eurocode Structural Standards (EN 1990-1999)" },
+        { "code": "ASTM", "name": "ASTM International Material Standards" },
+        { "code": "LEED", "name": "USGBC LEED Gold Certification Track" },
+        { "code": "ESTIDAMA", "name": "Estidama Pearl Rating System (Abu Dhabi)" }
+      ]
+    }
   }
 }
