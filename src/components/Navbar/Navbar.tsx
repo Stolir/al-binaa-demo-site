@@ -23,19 +23,32 @@ interface NavbarProps {
   lang: Lang;
 }
 
-function NavList({ content }: { content: Content }) {
+interface NavListProps {
+  content: Content;
+  lang: Lang;
+}
+
+function NavList({ content, lang }: NavListProps) {
   return (
     <ul className={styles.navLinks}>
-      <Link href={""}>{content.projects}</Link>
-      <Link href={""}>{content.services}</Link>
-      <Link href={""}>{content.about}</Link>
-      <Link href={""}>{content.contact}</Link>
-      <div className={styles.language}>
+      <li>
+        <Link href={`/${lang}/projects`}>{content.projects}</Link>
+      </li>
+      <li>
+        <Link href={`/${lang}/services`}>{content.services}</Link>
+      </li>
+      <li>
+        <Link href={`/${lang}/about`}>{content.about}</Link>
+      </li>
+      <li>
+        <Link href={`/${lang}/contact`}>{content.contact}</Link>
+      </li>
+      <li className={styles.language}>
         <LanguageSwitcher
           href={content.language.href}
           text={content.language.text}
         />
-      </div>
+      </li>
     </ul>
   );
 }
@@ -48,12 +61,12 @@ async function Navbar({ content, lang }: NavbarProps) {
         <p>{content.logoText}</p>
       </Link>
       <div className={styles.defaultNavContainer}>
-        <NavList content={content} />
+        <NavList content={content} lang={lang} />
       </div>
 
       <div className={styles.menuToggle}>
         <BurgerMenu>
-          <NavList content={content} />
+          <NavList content={content} lang={lang} />
         </BurgerMenu>
       </div>
     </header>

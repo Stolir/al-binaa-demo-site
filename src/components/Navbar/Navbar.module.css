@@ -28,6 +28,9 @@
 }
 
 .navLinks {
+  list-style: none;
+  padding: 0;
+  margin: 0;
   display: flex;
   gap: var(--space-6);
   font-size: 0.85em;
@@ -37,6 +40,11 @@
   color: rgb(78, 78, 78);
   font-family: var(--font-body);
   flex: 1;
+}
+
+.navLinks li {
+  display: flex;
+  align-items: center;
 }
 
 .navLinks a:hover {
