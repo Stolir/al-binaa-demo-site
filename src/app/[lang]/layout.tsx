@@ -14,9 +14,9 @@ export const metadata: Metadata = {
   description: "This is not a real business. SEO metadata goes here",
 };
 
-interface layoutProps {
+interface LayoutProps {
   children: React.ReactNode;
-  params: Promise<{ lang: Lang }>;
+  params: Promise<{ lang: string }>;
 }
 
 export const dynamicParams = false;
@@ -25,8 +25,9 @@ export function generateStaticParams() {
   return [{ lang: "en" }, { lang: "ar" }];
 }
 
-export default async function RootLayout({ children, params }: layoutProps) {
-  const { lang } = await params;
+export default async function RootLayout({ children, params }: LayoutProps) {
+  const { lang: paramLang } = await params;
+  const lang = (paramLang === "ar" ? "ar" : "en") as Lang;
 
   const content = getDictionary(lang);
 
