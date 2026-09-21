@@ -363,5 +363,173 @@
         { "code": "ESTIDAMA", "name": "Estidama Pearl Rating System (Abu Dhabi)" }
       ]
     }
+  },
+  "projectsPage": {
+    "header": {
+      "eyebrow": "Portfolio & Signature Works",
+      "title": "Landmarks Across the Arabian Gulf",
+      "description": "Precision-engineered structural, civil, and infrastructure developments designed to withstand extreme Gulf environments and deliver decades of resilience."
+    },
+    "gallery": {
+      "filter": {
+        "allLabel": "All Sectors",
+        "countSuffix": "Projects Displayed",
+        "categories": [
+          { "id": "all", "label": "All Works" },
+          { "id": "residential", "label": "Residential" },
+          { "id": "commercial", "label": "Commercial" },
+          { "id": "infrastructure", "label": "Infrastructure" },
+          { "id": "industrial", "label": "Industrial" }
+        ]
+      },
+      "items": [
+        {
+          "id": "pearl-coastal-towers",
+          "category": "residential",
+          "location": "Doha, Qatar",
+          "year": "2024",
+          "title": "Pearl Coastal Towers",
+          "description": "Engineering oversight for twin 52-story waterfront towers incorporating tuned mass damping systems and cathodic corrosion protection for high-salinity exposure.",
+          "tags": ["Residential", "High-Rise", "Marine Foundation"],
+          "metrics": [
+            { "label": "Height", "value": "240m" },
+            { "label": "Design Life", "value": "75+ Yrs" },
+            { "label": "Concrete Volume", "value": "85,000 m³" }
+          ],
+          "image": "/alain-pham-P_qvsF7Yodw-unsplash.jpg"
+        },
+        {
+          "id": "corniche-transit-bridge",
+          "category": "infrastructure",
+          "location": "Jeddah, KSA",
+          "year": "2025",
+          "title": "Corniche Transit Bridge",
+          "description": "Lead structural analysis for a 620m cable-stayed coastal crossing with continuous aerodynamic wind-tunnel modeling and segmental cantilevering.",
+          "tags": ["Infrastructure", "Civil", "Cable-Stayed"],
+          "metrics": [
+            { "label": "Span", "value": "620m" },
+            { "label": "Pylon Height", "value": "118m" },
+            { "label": "Daily Capacity", "value": "140k Vehicles" }
+          ],
+          "image": "/michael-lee-jePMoXo5kjQ-unsplash.jpg"
+        },
+        {
+          "id": "al-masar-logistics-park",
+          "category": "industrial",
+          "location": "Abu Dhabi, UAE",
+          "year": "2023",
+          "title": "Al Masar Logistics Park",
+          "description": "Superstructure, seismic joints, and high-tolerance industrial slab engineering across a 4-phase logistics terminal under an accelerated 14-month schedule.",
+          "tags": ["Industrial", "Logistics", "Heavy Slab"],
+          "metrics": [
+            { "label": "Footprint", "value": "180,000 m²" },
+            { "label": "Floor Load", "value": "120 kN/m²" },
+            { "label": "Timeline", "value": "14 Months" }
+          ],
+          "image": "/verstappen-photography-DuYVeyb2IDE-unsplash.jpg"
+        },
+        {
+          "id": "horizon-business-quarter",
+          "category": "commercial",
+          "location": "Muscat, Oman",
+          "year": "2022",
+          "title": "Horizon Business Quarter",
+          "description": "Unified deep raft slab foundation and post-tensioned floor plates supporting three interconnected corporate towers over complex coastal rock formations.",
+          "tags": ["Commercial", "Deep Raft", "Post-Tensioned"],
+          "metrics": [
+            { "label": "Gross Area", "value": "95,000 m²" },
+            { "label": "Towers", "value": "3 Blocks" },
+            { "label": "HVAC Efficiency", "value": "-32% Load" }
+          ],
+          "image": "/frames-for-your-heart-VoI2jd75M6Q-unsplash.jpg"
+        },
+        {
+          "id": "bahrain-grand-exhibition",
+          "category": "commercial",
+          "location": "Manama, Bahrain",
+          "year": "2024",
+          "title": "Bahrain Grand Exhibition Center",
+          "description": "Column-free 20,000 sqm exhibition space featuring 96m clear-span steel trusses and integrated acoustical-thermal envelope systems.",
+          "tags": ["Commercial", "Long-Span Steel", "Acoustics"],
+          "metrics": [
+            { "label": "Clear Span", "value": "96m" },
+            { "label": "Hall Capacity", "value": "25,000 Pax" },
+            { "label": "Steel Tonnage", "value": "4,200 Tons" }
+          ],
+          "image": "/sebastian-hages-8hjviTSduJ0-unsplash.jpg"
+        },
+        {
+          "id": "wadi-heritage-residences",
+          "category": "residential",
+          "location": "Riyadh, KSA",
+          "year": "2023",
+          "title": "Wadi Heritage Residences",
+          "description": "Seismic-isolated low-rise residential master plan blending Najdi architectural identity with subterranean retaining systems and thermal mass facades.",
+          "tags": ["Residential", "Seismic Isolation", "Thermal Envelope"],
+          "metrics": [
+            { "label": "Master Units", "value": "84 Villas" },
+            { "label": "Insulation", "value": "R-30+" },
+            { "label": "Site Footprint", "value": "120,000 m²" }
+          ],
+          "image": "/tye-doring-a7xke_rxZRs-unsplash.jpg"
+        },
+        {
+          "id": "gulf-desalination-facility",
+          "category": "industrial",
+          "location": "Ras Laffan, Qatar",
+          "year": "2024",
+          "title": "Gulf Heavy Desalination Plant",
+          "description": "Specialized concrete mix design and chemical-resistant bund structures for seawater intake pump stations and high-pressure reverse osmosis trains.",
+          "tags": ["Industrial", "Marine Intake", "Chemical Resistance"],
+          "metrics": [
+            { "label": "Potable Output", "value": "450k m³/d" },
+            { "label": "Concrete Grade", "value": "C60/75" },
+            { "label": "Asset Lifespan", "value": "80 Yrs" }
+          ],
+          "image": "/heye-jensen-ER4u3Kr_npI-unsplash.jpg"
+        },
+        {
+          "id": "red-sea-expressway",
+          "category": "infrastructure",
+          "location": "Yanbu to Umluj, KSA",
+          "year": "2025",
+          "title": "Red Sea Coastal Expressway",
+          "description": "Multi-lane arterial highway across coastal sabkha soils utilizing geogrid ground stabilization, hydraulic flash-flood culverts, and desert sand mitigation.",
+          "tags": ["Infrastructure", "Geotechnical", "Sabkha Soils"],
+          "metrics": [
+            { "label": "Corridor", "value": "145 km" },
+            { "label": "Culvert Bridges", "value": "82 Structures" },
+            { "label": "Soil Stabilized", "value": "1.2M m²" }
+          ],
+          "image": "/nikola-johnny-mirkovic-exrmAazn6wA-unsplash.jpg"
+        }
+      ]
+    },
+    "stats": {
+      "eyebrow": "Portfolio Performance",
+      "title": "Proven Gulf Delivery by the Numbers",
+      "items": [
+        {
+          "value": "2.4M+",
+          "unit": "SQM",
+          "label": "Total Built Footprint Engineered"
+        },
+        {
+          "value": "100%",
+          "unit": "COMPLIANCE",
+          "label": "Audit Pass Rate Across All Jurisdictions"
+        },
+        {
+          "value": "4",
+          "unit": "NATIONS",
+          "label": "Active GCC Regional Markets"
+        },
+        {
+          "value": "$1.8B+",
+          "unit": "CAPITAL",
+          "label": "Engineered Assets Under Technical Oversight"
+        }
+      ]
+    }
   }
 }
