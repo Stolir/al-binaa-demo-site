@@ -4,7 +4,6 @@ import PageHeader from "@/components/PageHeader/PageHeader";
 import DisciplinesDetail from "@/components/DisciplinesDetail/DisciplinesDetail";
 import CapabilitiesGrid from "@/components/CapabilitiesGrid/CapabilitiesGrid";
 import StandardsBar from "@/components/StandardsBar/StandardsBar";
-import CtaSection from "@/components/CtaSection/CtaSection";
 
 interface ServicesPageProps {
   params: Promise<{ lang: Lang }>;
@@ -26,7 +25,6 @@ export default async function ServicesPage({ params }: ServicesPageProps) {
       <DisciplinesDetail content={content.servicesPage.disciplines} />
       <CapabilitiesGrid content={content.servicesPage.capabilities} />
       <StandardsBar content={content.servicesPage.standards} />
-      <CtaSection content={content.cta} />
     </main>
   );
 }
