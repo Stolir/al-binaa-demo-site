@@ -646,5 +646,139 @@
         }
       ]
     }
+  },
+  "contactPage": {
+    "header": {
+      "eyebrow": "PROJECT INQUIRY & CONSULTATION",
+      "title": "START A TECHNICAL DIALOGUE",
+      "description": "Engage directly with our senior structural and civil engineering partners. We review RFP documents and feasibility inquiries with a guaranteed 24-hour initial technical turnaround."
+    },
+    "splitContact": {
+      "formTitle": "Submit a Project Inquiry / RFP",
+      "formSubtitle": "Provide high-level project parameters to connect with the relevant sector principal.",
+      "fields": {
+        "fullName": {
+          "label": "Full Name",
+          "placeholder": "e.g., Eng. Khalid Al-Otaibi"
+        },
+        "company": {
+          "label": "Organization / Developer",
+          "placeholder": "e.g., Red Sea Development Authority"
+        },
+        "email": {
+          "label": "Work Email",
+          "placeholder": "name@organization.com"
+        },
+        "phone": {
+          "label": "Direct Contact Number",
+          "placeholder": "+966 5X XXX XXXX"
+        },
+        "sector": {
+          "label": "Primary Sector",
+          "placeholder": "Select an engineering discipline...",
+          "options": [
+            { "value": "residential", "label": "Residential & Mixed-Use High-Rise" },
+            { "value": "commercial", "label": "Commercial & Civic Landmarks" },
+            { "value": "infrastructure", "label": "Heavy Infrastructure & Marine" },
+            { "value": "industrial", "label": "Industrial, Logistics & Plants" },
+            { "value": "other", "label": "Specialized Feasibility / Forensic Audit" }
+          ]
+        },
+        "scope": {
+          "label": "Project Scope, Location & Estimated Timeline",
+          "placeholder": "Outline project footprint, gross floor area (GFA), site constraints, and targeted delivery milestones..."
+        }
+      },
+      "submitButton": "Transmit Technical Inquiry",
+      "submittingText": "Transmitting...",
+      "successMessage": "Inquiry transmitted successfully. Our sector lead will respond within 24 hours.",
+      "directChannels": {
+        "title": "Direct Engineering Channels",
+        "description": "For urgent project tenders, tender documentation submissions, or corporate inquiries:",
+        "items": [
+          {
+            "label": "Central Technical Dispatch",
+            "value": "inquiries@al-binaa.com",
+            "type": "email"
+          },
+          {
+            "label": "RFP & Tender Submissions",
+            "value": "rfp@al-binaa.com",
+            "type": "email"
+          },
+          {
+            "label": "Executive Hotline",
+            "value": "+966 11 482 9100",
+            "type": "phone"
+          },
+          {
+            "label": "Operating Hours",
+            "value": "Sunday – Thursday: 08:00 – 18:00 (GMT+3)",
+            "type": "info"
+          }
+        ]
+      }
+    },
+    "offices": {
+      "eyebrow": "REGIONAL PRESENCE",
+      "title": "GULF ENGINEERING OFFICES",
+      "description": "Integrated offices providing localized statutory compliance and field supervision across the GCC.",
+      "items": [
+        {
+          "city": "Riyadh",
+          "role": "Corporate Headquarters & Main Design Studio",
+          "address": "King Fahd Road, Al-Olaya District, Tower 4, Fl 18",
+          "country": "Kingdom of Saudi Arabia",
+          "phone": "+966 11 482 9100",
+          "email": "riyadh@al-binaa.com"
+        },
+        {
+          "city": "Abu Dhabi",
+          "role": "Marine & Geotechnical Center of Excellence",
+          "address": "Al Maryah Island, Global Market Square, Tower 2",
+          "country": "United Arab Emirates",
+          "phone": "+971 2 645 8820",
+          "email": "abudhabi@al-binaa.com"
+        },
+        {
+          "city": "Doha",
+          "role": "Infrastructure & Structural Engineering Office",
+          "address": "Lusail Marina District, Waterfront Commercial Complex",
+          "country": "State of Qatar",
+          "phone": "+974 44 92 7300",
+          "email": "doha@al-binaa.com"
+        },
+        {
+          "city": "Muscat",
+          "role": "Civic & Environmental Engineering Practice",
+          "address": "Al Mouj Street, Ghubrah North, Business Center",
+          "country": "Sultanate of Oman",
+          "phone": "+968 24 61 5400",
+          "email": "muscat@al-binaa.com"
+        }
+      ]
+    },
+    "faq": {
+      "eyebrow": "PRE-ENGAGEMENT GUIDELINES",
+      "title": "FREQUENTLY ASKED TECHNICAL QUESTIONS",
+      "items": [
+        {
+          "question": "What documentation is required for an initial RFP evaluation?",
+          "answer": "We recommend submitting architectural conceptual schemes, site survey data or geotechnical borehole reports (if available), targeted gross floor area (GFA), and schedule requirements. If site data is preliminary, our geotechnical group can conduct preliminary desk studies."
+        },
+        {
+          "question": "What is the typical turnaround timeline for engineering feasibility studies?",
+          "answer": "Initial parametric sizing, preliminary structural grid recommendations, and code compliance screenings are typically delivered within 7 to 10 working days, depending on project scale and regional jurisdiction."
+        },
+        {
+          "question": "Do you offer full-time on-site Project Management & Supervision (PMC)?",
+          "answer": "Yes. Beyond structural and civil design engineering, we deploy dedicated resident engineer teams, materials QA/QC inspectors, and structural health monitoring specialists for full-lifecycle construction supervision."
+        },
+        {
+          "question": "How do you manage municipal statutory permitting across different GCC nations?",
+          "answer": "We maintain active Category-1 engineering licenses and certified resident engineers across Saudi Arabia (SBC/SCE), the UAE (Dubai Municipality, Abu Dhabi DPM), Qatar, and Oman, managing civil defense, structural, and environmental permitting directly."
+        }
+      ]
+    }
   }
 }
