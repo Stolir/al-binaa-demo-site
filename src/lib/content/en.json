@@ -531,5 +531,120 @@
         }
       ]
     }
+  },
+  "aboutPage": {
+    "header": {
+      "eyebrow": "OUR HERITAGE & MISSION",
+      "title": "QUARTER-CENTURY OF STRUCTURAL MASTERY",
+      "description": "Founded in Riyadh in 1999, Al-Binaa Engineering delivers civil, structural, and infrastructure solutions engineered to withstand the extreme environmental demands of the Arabian Gulf."
+    },
+    "values": {
+      "eyebrow": "GUIDING PRINCIPLES",
+      "title": "CORE ENGINEERING PILLARS",
+      "items": [
+        {
+          "numeral": "01",
+          "title": "Technical Diligence",
+          "description": "Relentless precision from soil mechanics to finite element structural simulations. Every specification is mathematically validated."
+        },
+        {
+          "numeral": "02",
+          "title": "Climate Resilience",
+          "description": "Structures engineered specifically for extreme hyper-arid temperatures, high ground salinity, and coastal wind dynamics."
+        },
+        {
+          "numeral": "03",
+          "title": "Zero-Defect Delivery",
+          "description": "Uncompromising quality assurance protocols, integrated digital twinning, and rigorous on-site supervision at every phase."
+        }
+      ]
+    },
+    "milestones": {
+      "eyebrow": "CHRONOLOGY OF EXCELLENCE",
+      "title": "KEY ENGINEERING MILESTONES",
+      "items": [
+        {
+          "year": "1999",
+          "title": "Inception in Riyadh",
+          "description": "Established as a specialized structural engineering consultancy focusing on complex commercial superstructures in central Saudi Arabia."
+        },
+        {
+          "year": "2008",
+          "title": "Regional Gulf Expansion",
+          "description": "Expanded operations across the UAE, Qatar, and Oman, pioneering deep marine foundation systems for coastal developments."
+        },
+        {
+          "year": "2018",
+          "title": "Full BIM Level 3 Integration",
+          "description": "Transitioned entire design, MEP coordination, and site supervision pipeline to multi-dimensional digital twinning and collaborative BIM workflows."
+        },
+        {
+          "year": "2024",
+          "title": "150th Major Landmark Delivered",
+          "description": "Surpassed $1.8B+ in engineered asset value with over 2,000,000 sqm of structural delivery across 4 national jurisdictions."
+        }
+      ]
+    },
+    "leadership": {
+      "eyebrow": "TECHNICAL LEADERSHIP",
+      "title": "EXECUTIVE PRINCIPALS",
+      "description": "Seasoned structural engineers, project directors, and materials specialists steering complex Gulf infrastructure.",
+      "items": [
+        {
+          "name": "Eng. Tariq Al-Husseini",
+          "role": "Managing Director & Principal Structural Engineer",
+          "credentials": "PE, FICE, M.Sc. Structural Engineering (Imperial)",
+          "experience": "26+ Years Experience",
+          "bio": "Lead consultant on over 60 high-rise towers and heavy civil structures across Saudi Arabia and the UAE."
+        },
+        {
+          "name": "Dr. Laila Al-Mansoor",
+          "role": "Director of Geotechnical & Marine Systems",
+          "credentials": "Ph.D. Soil Mechanics (UC Berkeley), CEng",
+          "experience": "20+ Years Experience",
+          "bio": "Specialist in hyper-saline ground improvement, deep caisson foundations, and coastal seawall stabilization."
+        },
+        {
+          "name": "Eng. Rashid Al-Kuwari",
+          "role": "Head of Digital Engineering & BIM Twinning",
+          "credentials": "M.Sc. Computational Civil Engineering (ETH Zurich)",
+          "experience": "16+ Years Experience",
+          "bio": "Pioneer in parametric finite-element wind simulations, thermal load modeling, and integrated 5D BIM project controls."
+        },
+        {
+          "name": "Eng. Marcus Vance",
+          "role": "Director of Project Assurance & Delivery",
+          "credentials": "CEng, MIStructE, PMP",
+          "experience": "22+ Years Experience",
+          "bio": "Directs field supervision and QA/QC compliance for infrastructure spans exceeding 500m throughout the GCC."
+        }
+      ]
+    },
+    "accreditations": {
+      "eyebrow": "CREDENTIALS & COMPLIANCE",
+      "title": "CERTIFIED RIGOR",
+      "items": [
+        {
+          "code": "ISO 9001:2015",
+          "name": "Quality Management Systems",
+          "issuer": "Bureau Veritas Certified"
+        },
+        {
+          "code": "ISO 14001:2015",
+          "name": "Environmental Management",
+          "issuer": "Global Standard Verification"
+        },
+        {
+          "code": "ISO 45001:2018",
+          "name": "Occupational Health & Safety",
+          "issuer": "Zero-Harm Verified"
+        },
+        {
+          "code": "AIA / SBC",
+          "name": "Licensed Engineering Practice",
+          "issuer": "Saudi Council of Engineers & GCC Chambers"
+        }
+      ]
+    }
   }
 }
