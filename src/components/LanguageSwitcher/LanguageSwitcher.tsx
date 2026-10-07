@@ -6,6 +6,7 @@ import { usePathname, useRouter } from "next/navigation";
 interface LanguageSwitcherProps {
   href: string;
   text: string;
+  className?: string;
 }
 
 const SCROLL_POS_KEY = "al_binaa_lang_scroll_ratio";
@@ -28,6 +29,7 @@ function getTargetUrl(pathname: string | null, defaultHref: string): string {
 export default function LanguageSwitcher({
   href,
   text,
+  className,
 }: LanguageSwitcherProps) {
   const router = useRouter();
   const pathname = usePathname();
@@ -60,7 +62,12 @@ export default function LanguageSwitcher({
   };
 
   return (
-    <a href={targetHref} onClick={handleLanguageSwitch} aria-busy={isPending}>
+    <a
+      href={targetHref}
+      onClick={handleLanguageSwitch}
+      aria-busy={isPending}
+      className={className}
+    >
       {text}
     </a>
   );

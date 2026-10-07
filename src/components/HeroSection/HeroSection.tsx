@@ -1,8 +1,9 @@
 import Image from "next/image";
 import styles from "./HeroSection.module.css";
 import heroImage from "../../../public/tye-doring-a7xke_rxZRs-unsplash.jpg";
-import CTAButton from "../ButtonLink/ButtonLink";
 import ButtonLink from "../ButtonLink/ButtonLink";
+import { Lang } from "@/lib/types";
+import { localizeHref } from "@/lib/utils";
 
 interface headlinePart {
   text: string;
@@ -22,7 +23,12 @@ type Content = {
   };
 };
 
-function HeroSection({ content }: { content: Content }) {
+interface HeroSectionProps {
+  content: Content;
+  lang?: Lang;
+}
+
+function HeroSection({ content, lang = "en" }: HeroSectionProps) {
   return (
     <section className={styles.heroSection}>
       <Image src={heroImage} alt="" sizes="100vw" priority />
@@ -38,10 +44,16 @@ function HeroSection({ content }: { content: Content }) {
           <p>{content.subtext}</p>
         </div>
         <div className={styles.ctaContainer}>
-          <ButtonLink href={content.ctaPrimary.href} variant="primary">
+          <ButtonLink
+            href={localizeHref(content.ctaPrimary.href, lang, "/contact")}
+            variant="primary"
+          >
             {content.ctaPrimary.label}
           </ButtonLink>
-          <ButtonLink href={content.ctaSecondary.href} variant="secondary">
+          <ButtonLink
+            href={localizeHref(content.ctaSecondary.href, lang, "/projects")}
+            variant="secondary"
+          >
             {content.ctaSecondary.label}
           </ButtonLink>
         </div>

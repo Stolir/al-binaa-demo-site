@@ -41,8 +41,8 @@ export default async function RootLayout({ children, params }: LayoutProps) {
         <ScrollRestorer />
         <Navbar content={content.navbar} lang={lang} />
         {children}
-        <CtaSection content={content.cta} />
-        <Footer content={content.footer} />
+        <CtaSection content={content.cta} lang={lang} />
+        <Footer content={content.footer} lang={lang} />
       </body>
     </html>
   );

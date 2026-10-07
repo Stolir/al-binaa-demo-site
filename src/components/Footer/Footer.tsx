@@ -1,6 +1,8 @@
 import Link from "next/link";
 import styles from "./Footer.module.css";
 import { Lang } from "@/lib/types";
+import { localizeHref } from "@/lib/utils";
+import LanguageSwitcher from "../LanguageSwitcher/LanguageSwitcher";
 
 export type FooterLink = {
   label: string;
@@ -39,7 +41,7 @@ function Footer({ content, lang = "en" }: FooterProps) {
 
           <div className={styles.socialIcons} aria-label="Company Links">
             <Link
-              href="#"
+              href={`/${lang}`}
               className={styles.socialIconLink}
               aria-label="Corporate Website"
             >
@@ -59,8 +61,8 @@ function Footer({ content, lang = "en" }: FooterProps) {
               </svg>
             </Link>
 
-            <Link
-              href="#"
+            <a
+              href={`mailto:${content.hq.email}`}
               className={styles.socialIconLink}
               aria-label="Send an email"
             >
@@ -77,10 +79,10 @@ function Footer({ content, lang = "en" }: FooterProps) {
                 <rect width="20" height="16" x="2" y="4" rx="2" />
                 <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
               </svg>
-            </Link>
+            </a>
 
             <Link
-              href="#"
+              href={`/${lang}/contact`}
               className={styles.socialIconLink}
               aria-label="Find office location"
             >
@@ -107,7 +109,10 @@ function Footer({ content, lang = "en" }: FooterProps) {
           <ul className={styles.linkList}>
             {content.quickLinks.map((item, index) => (
               <li key={index}>
-                <Link href="#" className={styles.link}>
+                <Link
+                  href={localizeHref(item.href, lang, "/projects")}
+                  className={styles.link}
+                >
                   {item.label}
                 </Link>
               </li>
@@ -121,7 +126,10 @@ function Footer({ content, lang = "en" }: FooterProps) {
           <ul className={styles.linkList}>
             {content.corporate.map((item, index) => (
               <li key={index}>
-                <Link href="#" className={styles.link}>
+                <Link
+                  href={localizeHref(item.href, lang, "/about")}
+                  className={styles.link}
+                >
                   {item.label}
                 </Link>
               </li>
@@ -137,12 +145,19 @@ function Footer({ content, lang = "en" }: FooterProps) {
               <span key={idx}>{line}</span>
             ))}
             <span className={styles.contactDivider} />
-            <Link href="#" className={styles.contactLink}>
+            <a
+              href={`tel:${content.hq.phone.replace(/\s+/g, "")}`}
+              className={styles.contactLink}
+              dir="ltr"
+            >
               {content.hq.phone}
-            </Link>
-            <Link href="#" className={styles.contactLink}>
+            </a>
+            <a
+              href={`mailto:${content.hq.email}`}
+              className={styles.contactLink}
+            >
               {content.hq.email}
-            </Link>
+            </a>
           </address>
         </div>
       </div>
@@ -153,21 +168,19 @@ function Footer({ content, lang = "en" }: FooterProps) {
           <p className={styles.copyright}>{content.copyright}</p>
 
           <div className={styles.languageLinks} aria-label="Language selection">
-            <Link
+            <LanguageSwitcher
               href="/en"
+              text="English"
               className={`${styles.langLink} ${lang === "en" ? styles.active : ""}`}
-            >
-              English
-            </Link>
+            />
             <span className={styles.langDivider} aria-hidden="true">
               |
             </span>
-            <Link
+            <LanguageSwitcher
               href="/ar"
+              text="العربية"
               className={`${styles.langLink} ${lang === "ar" ? styles.active : ""}`}
-            >
-              العربية
-            </Link>
+            />
           </div>
         </div>
       </div>

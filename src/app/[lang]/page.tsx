@@ -21,11 +21,11 @@ export default async function Home({ params }: HomeProps) {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <HeroSection content={content.hero} />
+        <HeroSection content={content.hero} lang={lang} />
         <StatBar content={content.statBar} />
         <IntroSection content={content.Intro} />
-        <SpecializationsSection content={content.specializations} />
-        <ProjectsSectionAlt content={content.projects} />
+        <SpecializationsSection content={content.specializations} lang={lang} />
+        <ProjectsSectionAlt content={content.projects} lang={lang} />
         <DeliveryProcessSection content={content.deliveryProcess} />
         <SafetySection content={content.safety} />
         <TestimonialsSection content={content.testimonials} />

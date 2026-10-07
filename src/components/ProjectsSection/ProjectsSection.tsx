@@ -1,5 +1,6 @@
 import Link from "next/link";
 import styles from "./ProjectsSection.module.css";
+import { Lang } from "@/lib/types";
 
 export type ProjectItem = {
   location: string;
@@ -18,9 +19,10 @@ export type ProjectsContent = {
 
 interface ProjectsSectionProps {
   content: ProjectsContent;
+  lang?: Lang;
 }
 
-function ProjectsSection({ content }: ProjectsSectionProps) {
+function ProjectsSection({ content, lang = "en" }: ProjectsSectionProps) {
   // Sort projects by year descending and pick the 2 most recent
   const recentProjects = [...content.items]
     .sort((a, b) => parseInt(b.year, 10) - parseInt(a.year, 10))
@@ -33,7 +35,7 @@ function ProjectsSection({ content }: ProjectsSectionProps) {
           <p className={styles.subheader}>{content.subheader}</p>
           <h2 className={styles.header}>{content.header}</h2>
         </div>
-        <Link href="/projects" className={styles.viewAllLink}>
+        <Link href={`/${lang}/projects`} className={styles.viewAllLink}>
           {content.viewAll}
         </Link>
       </header>

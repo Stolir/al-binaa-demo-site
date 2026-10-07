@@ -24,11 +24,11 @@
     "subtext": "ثلاثة عقود من الهندسة الدقيقة خلف أبرز المشاريع السكنية والتجارية والبنية التحتية في الخليج.",
     "ctaPrimary": {
       "label": "احصل على عرض سعر",
-      "href": "/contact"
+      "href": "/ar/contact"
     },
     "ctaSecondary": {
       "label": "تصفح مشاريعنا",
-      "href": "/projects"
+      "href": "/ar/projects"
     }
   },
   "statBar": [
@@ -199,11 +199,11 @@
     "subtext": "تواصل مع فريقنا الفني المتخصص للحصول على استشارة أولية وتقييم الجدوى الإنشائية لمشروعك.",
     "primary": {
       "label": "تواصل معنا",
-      "href": "#"
+      "href": "/ar/contact"
     },
     "secondary": {
       "label": "إرسال طلب تسعير (RFP)",
-      "href": "#"
+      "href": "/ar/contact"
     }
   },
   "footer": {
@@ -211,17 +211,17 @@
     "description": "البساطة الصناعية تلتقي بالسلامة الإنشائية. نصمم ونهندس معالم الخليج العربي منذ عام 1999.",
     "quickLinksTitle": "روابط سريعة",
     "quickLinks": [
-      { "label": "المشاريع", "href": "#" },
-      { "label": "الخدمات", "href": "#" },
-      { "label": "الاستدامة", "href": "#" },
-      { "label": "الوظائف", "href": "#" }
+      { "label": "المشاريع", "href": "/ar/projects" },
+      { "label": "الخدمات", "href": "/ar/services" },
+      { "label": "الاستدامة", "href": "/ar/about" },
+      { "label": "الوظائف", "href": "/ar/contact" }
     ],
     "corporateTitle": "معلومات الشركة",
     "corporate": [
-      { "label": "شهادات الآيزو", "href": "#" },
-      { "label": "معايير السلامة", "href": "#" },
-      { "label": "شروط الخدمة", "href": "#" },
-      { "label": "سياسة الخصوصية", "href": "#" }
+      { "label": "شهادات الآيزو", "href": "/ar/about" },
+      { "label": "معايير السلامة", "href": "/ar/about" },
+      { "label": "شروط الخدمة", "href": "/ar/contact" },
+      { "label": "سياسة الخصوصية", "href": "/ar/contact" }
     ],
     "hqTitle": "المقر الرئيسي",
     "hq": {

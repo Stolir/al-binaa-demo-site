@@ -1,5 +1,7 @@
 import Link from "next/link";
 import styles from "./CtaSection.module.css";
+import { Lang } from "@/lib/types";
+import { localizeHref } from "@/lib/utils";
 
 export type CtaButton = {
   label: string;
@@ -15,9 +17,10 @@ export type CtaContent = {
 
 interface CtaSectionProps {
   content: CtaContent;
+  lang?: Lang;
 }
 
-function CtaSection({ content }: CtaSectionProps) {
+function CtaSection({ content, lang = "en" }: CtaSectionProps) {
   return (
     <section className={styles.ctaSection} aria-labelledby="cta-heading">
       <div className={styles.container}>
@@ -29,7 +32,7 @@ function CtaSection({ content }: CtaSectionProps) {
 
         <div className={styles.buttonGroup}>
           <Link
-            href={content.primary.href || "#"}
+            href={localizeHref(content.primary.href, lang, "/contact")}
             className={styles.primaryBtn}
             role="button"
           >
@@ -49,7 +52,7 @@ function CtaSection({ content }: CtaSectionProps) {
           </Link>
 
           <Link
-            href={content.secondary.href || "#"}
+            href={localizeHref(content.secondary.href, lang, "/contact")}
             className={styles.secondaryBtn}
             role="button"
           >

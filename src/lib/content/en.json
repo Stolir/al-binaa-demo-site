@@ -24,11 +24,11 @@
     "subtext": "Three decades of precision engineering behind the Gulf's most iconic residential, commercial, and infrastructure projects.",
     "ctaPrimary": {
       "label": "Get a Quote",
-      "href": "/contact"
+      "href": "/en/contact"
     },
     "ctaSecondary": {
       "label": "View Projects",
-      "href": "/projects"
+      "href": "/en/projects"
     }
   },
   "statBar": [
@@ -198,11 +198,11 @@
     "subtext": "Contact our senior technical team for a preliminary consultation and feasibility assessment.",
     "primary": {
       "label": "Contact us",
-      "href": "#"
+      "href": "/en/contact"
     },
     "secondary": {
       "label": "Send RFP",
-      "href": "#"
+      "href": "/en/contact"
     }
   },
   "footer": {
@@ -210,17 +210,17 @@
     "description": "Industrial minimalism meeting structural integrity. Engineering the Levant and Gulf landscape since 1999.",
     "quickLinksTitle": "Quick Links",
     "quickLinks": [
-      { "label": "Projects", "href": "#" },
-      { "label": "Services", "href": "#" },
-      { "label": "Sustainability", "href": "#" },
-      { "label": "Careers", "href": "#" }
+      { "label": "Projects", "href": "/en/projects" },
+      { "label": "Services", "href": "/en/services" },
+      { "label": "Sustainability", "href": "/en/about" },
+      { "label": "Careers", "href": "/en/contact" }
     ],
     "corporateTitle": "Corporate",
     "corporate": [
-      { "label": "ISO Certifications", "href": "#" },
-      { "label": "Safety Standards", "href": "#" },
-      { "label": "Terms of Service", "href": "#" },
-      { "label": "Privacy Policy", "href": "#" }
+      { "label": "ISO Certifications", "href": "/en/about" },
+      { "label": "Safety Standards", "href": "/en/about" },
+      { "label": "Terms of Service", "href": "/en/contact" },
+      { "label": "Privacy Policy", "href": "/en/contact" }
     ],
     "hqTitle": "HQ Contact",
     "hq": {

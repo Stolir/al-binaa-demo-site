@@ -27,7 +27,7 @@ function BurgerMenu({ children }: BurgerMenuProps) {
 
         <aside className={styles.sidebar} inert={!isOpen} aria-hidden={!isOpen}>
           <nav aria-label="Menu Navigation" className={styles.navbarContent}>
-            <ul>{children}</ul>
+            {children}
           </nav>
         </aside>
       </div>
